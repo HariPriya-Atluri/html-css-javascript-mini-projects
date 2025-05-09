@@ -1,0 +1,37 @@
+body {
+    background-color: #0f172a;
+    color: honeydew;
+  
+  
+  
+  }
+  #eventid{
+    margin: 5%;
+    background-color: aqua;
+    width: 200px;
+    height: 60px;
+    padding: 9px;
+    font-size: 22px;
+    color: blueviolet;
+  }
+  #divid{
+    margin: 5%;
+   
+  }
+  #resid{
+    margin: 5%;
+    font-size: 29px;
+  }
+  #keybid,#inputid{
+    width: 200px;
+    height: 30px;
+    margin: 1%;
+  }
+  #btnid{
+    display: flex;
+    width: 150px;
+    height: 39px;
+    margin: 2% 2%;
+    padding: 10px;
+    
+  }
