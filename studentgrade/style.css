@@ -1,0 +1,16 @@
+body{
+  background: linear-gradient(to right, rgb(70, 167, 128) 2%, #59e4e4 50%, rgb(0, 204, 255) 100%);
+
+  padding: 2%;
+ 
+}
+#sname,#sscore{
+  height: 30px;
+  width: 130px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+button{
+  height: 35px;
+  margin-left: 3%;
+}
