@@ -1,0 +1,209 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+   
+}
+nav img{
+    width: 140px;
+    height: 90px;
+    margin-top: -20px;
+    margin-left: -120px;
+    
+}
+nav input{
+    width: 290px;
+    height: 40px;
+    margin-top:15px;
+    border: solid 3px black;
+}
+nav .down{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+}
+nav .down:hover{
+    color: red;
+}
+nav .icon{
+    display: flex;
+    padding-top:20px ;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.icon1{
+    display: flex;
+    padding-right: 30px;
+    color: blue;
+}
+.icon1:hover{
+    color: red;
+}
+.icon2{
+    display: flex;
+    color: blue;
+}
+.icon2:hover{
+    color: red;
+}
+.nav2{
+    font-size: 19px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.nav2:hover{
+    color: green;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(248, 247, 247);
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 30px;
+    
+}
+
+.sale{
+    float: right;
+    margin-right: -70px;
+}
+button{
+    width: 310px;
+    height: 50px;
+    margin-top: 260px;
+    margin-left:-550px;
+    background-color: purple;
+    color: white;
+    font-size: 22px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: white;
+    color: purple;
+    font-size: 22px;
+}
+.main .text{
+    color: blue;
+    padding-top: 10px;
+}
+.main .text .txt{
+    display: flex;
+    padding-top: 30px;
+    
+}
+.main .text .txt h2{
+    margin-inline: 10px;
+    background-color: pink;
+    color: blue;
+    
+}
+.cat h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.cat .fs{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cat .fs{
+    background-color:lightcoral ;
+    font-size: 35px;
+    margin-left: 290px;
+    margin-right: 290px;
+    
+}
+.cat .fs h1{
+    padding: 30px;
+}
+.sell{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: lightseagreen;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+.sell img{
+    width: 500px;
+    height: 400px;
+   
+}
+.sell h2{
+    font-size: 53px;
+    padding-left: 30px;
+    padding-top: 90px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content:space-evenly;
+    text-align: center;
+    
+}
+.cards .cards2{
+    border: rgb(224, 224, 224) 2px solid;
+    border-radius: 1%;
+    height: 330px;
+    margin-top: 30px;
+}
+.cards .cards2 img{
+    width: 320px;
+    height: 250px;
+    
+} 
+.cards .cards2 h3{
+    padding-top: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding-top: 20px;
+}
+footer .icons{
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+}
+footer .icons i{
+    margin-inline: 10px;
+}
+footer .list .insta{
+    color: red;
+}
+footer .list .fb{
+    color: blue;
+}
+footer .list .twiter{
+    color: blue;
+}
+footer .list .yt{
+    color: red;
+}
+
+
+
+
+
+
+ 
+
