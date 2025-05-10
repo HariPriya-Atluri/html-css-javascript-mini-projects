@@ -1,0 +1,25 @@
+body{
+  background-color: #2a5;
+
+  padding: 5%;
+  
+ 
+}
+.list-item{
+  font-size: 20px;
+  padding: 2%;
+  ;
+}
+.btn-card{
+  margin: 2%;
+  height: 35px;
+  width: 90px;
+}
+#msg1,#msg2{
+  font-size: larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 3%;
+  color: rgb(255, 0, 4);
+  font-weight: 600;
+}
+
