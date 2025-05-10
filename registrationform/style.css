@@ -1,0 +1,21 @@
+body{
+  margin:60px;
+  background-color: rgba(50,27,11,0.9);
+}
+input,button{
+  display: block;
+  margin-top: 30px;
+  width: 380px;
+  height: 30px;
+
+  
+}
+p{
+  width: 480px;
+  height: 40px;
+  background-color: burlywood;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 25px;
+}
