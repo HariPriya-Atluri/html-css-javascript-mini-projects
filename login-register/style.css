@@ -1,0 +1,33 @@
+body{
+  margin-top: 100px;
+  background-color: rgb(74, 71, 71);
+  
+}
+input,button{
+  display:block;
+  margin: 20px;
+  padding: 10px;
+  width: 350px;
+}
+p{
+  width: 500px;
+ 
+  background-color: rgb(240, 239, 239);
+  height: 40px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.success { color: green; }
+.error { color: red; }
+.loading {
+display: inline-block;
+width: 12px;
+height: 12px;
+border: 2px solid #ccc;
+border-top: 2px solid #333;
+border-radius: 50%;
+animation: spin 1s linear infinite;
+margin-right: 5px;
+}
