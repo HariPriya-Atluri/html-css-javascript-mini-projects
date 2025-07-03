@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="timeline"></div>
+<input id="quoteInput" type="text" placeholder="Enter a quote">
+<button onclick="addQuoteFromInput()">Add Quote</button>
+
+<script>
+  function addQuoteFromInput() {
+    const input = document.getElementById("quoteInput");
+    const quote = input.value.trim();
+    if (quote !== "") {
+      addQuote(quote);
+      input.value = ""; // Clear input
+    }
+  }
+
+  function addQuote(quoteText) {
+  const timeline = document.getElementById("timeline");
+
+  // Create the quote container
+  const quoteDiv = document.createElement("div");
+  quoteDiv.className = "quote";
+
+  // Create text node
+  const quoteContent = document.createElement("p");
+  quoteContent.textContent = quoteText;
+
+  // Create delete button
+  const deleteBtn = document.createElement("button");
+  deleteBtn.textContent = "Delete";
+  deleteBtn.onclick = function () {
+    deleteQuote(quoteDiv);
+  };
+
+  // Append everything to quoteDiv
+  quoteDiv.appendChild(quoteContent);
+  quoteDiv.appendChild(deleteBtn);
+
+  // Append quoteDiv to timeline
+  timeline.appendChild(quoteDiv);
+}
+
+function deleteQuote(quoteElement) {
+  quoteElement.remove(); // modern and clean way to remove
+}
+
+</script>
+</body>
+</html>
